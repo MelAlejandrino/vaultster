@@ -98,7 +98,7 @@ export const Data = [
     context: [
       {
         text: "Where I learned CSS",
-        snippet: `https://www.w3schools.com/css/default.asp`
+        snippet: `https://www.w3schools.com/css/default.asp`,
       },
       {
         text: "Where I understood CSS",
@@ -114,14 +114,14 @@ export const Data = [
     context: [
       {
         text: "docs",
-        snippet: `https://react-icons.github.io/react-icons`
+        snippet: `https://react-icons.github.io/react-icons`,
       },
       {
         text: "Installation",
         snippet: `npm install react-icons --save`,
       },
       {
-        text: "USAGE"
+        text: "USAGE",
       },
       {
         text: "SIMPLE ICON",
@@ -142,7 +142,7 @@ export const Data = [
         
         docs: https://fontawesome.com/v5/docs/web/use-with/react
         `,
-      }
+      },
     ],
   },
   {
@@ -152,8 +152,30 @@ export const Data = [
     background: "#F5FFBB",
     context: [
       {
-        snippet: `https://github.com/hendurhance/ui-ux`
+        snippet: `https://github.com/hendurhance/ui-ux`,
+      },
+    ],
+  },
+  {
+    id: 8,
+    name: "HTML5 - <picture /> tag",
+    tag: "Programming",
+    background: "#F5FFBB",
+    context: [
+      {
+        snippet: 
+        `<picture>
+          <source srcset="./imgsource" media="(max-width: 40em)"
+          />
+          <img
+          src="./imgsource"
+          />
+        </picture>
+        `,
+      },
+      {
+        text: "source with media for desired image for a set width"
       }
-    ]
-  }
+    ],
+  },
 ];
