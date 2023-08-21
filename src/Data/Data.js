@@ -145,4 +145,15 @@ export const Data = [
       }
     ],
   },
+  {
+    id: 7,
+    name: "UI-UX RESOURCES",
+    tag: "Programming",
+    background: "#F5FFBB",
+    context: [
+      {
+        snippet: `https://github.com/hendurhance/ui-ux`
+      }
+    ]
+  }
 ];
