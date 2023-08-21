@@ -44,7 +44,7 @@ function About() {
               <a target="_blank" href="https://github.com/MelAlejandrino">GITHUB</a>
             </li>
             <li>
-              <a target="_blank" href="">MEL'S COMMISSION</a>
+              <a target="_blank" href="https://melcommissioner.netlify.app/">MEL'S COMMISSIONS</a>
             </li>
           </ul>
         </div>
